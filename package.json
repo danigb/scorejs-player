@@ -6,6 +6,10 @@
   "scripts": {
     "test": "vows test/*.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/scorejs-player.git"
+  },
   "keywords": [
     "scorejs",
     "music",
@@ -17,6 +21,10 @@
   ],
   "author": "= <=>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/scorejs-player/issues"
+  },
+  "homepage": "https://github.com/danigb/scorejs-player#readme",
   "devDependencies": {
     "webpack": "^1.8.11",
     "webpack-dev-server": "^1.8.2"
