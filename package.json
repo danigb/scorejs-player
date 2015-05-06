@@ -1,0 +1,28 @@
+{
+  "name": "scorejs-player",
+  "version": "0.1.0",
+  "description": "Simple player plugin for Scorejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "vows test/*.js"
+  },
+  "keywords": [
+    "scorejs",
+    "music",
+    "audio",
+    "webaudio",
+    "teoria",
+    "player",
+    "soundfont"
+  ],
+  "author": "= <=>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "scorejs": "^0.3.0",
+    "waaclock": "^0.5.2"
+  }
+}
