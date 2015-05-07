@@ -4,7 +4,7 @@
   "description": "Simple player plugin for Scorejs",
   "main": "index.js",
   "scripts": {
-    "test": "vows test/*.js"
+    "test": "vows test/*.js test/plugins/*.js"
   },
   "repository": {
     "type": "git",
@@ -19,18 +19,17 @@
     "player",
     "soundfont"
   ],
-  "author": "= <=>",
+  "author": "danigb <danigb@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/danigb/scorejs-player/issues"
   },
   "homepage": "https://github.com/danigb/scorejs-player#readme",
+  "dependencies": {
+    "scorejs": "^0.3.0",
+  },
   "devDependencies": {
     "webpack": "^1.8.11",
     "webpack-dev-server": "^1.8.2"
-  },
-  "dependencies": {
-    "scorejs": "^0.3.0",
-    "waaclock": "^0.5.2"
   }
 }
