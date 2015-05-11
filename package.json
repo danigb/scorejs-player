@@ -1,7 +1,7 @@
 {
   "name": "scorejs-player",
   "version": "0.1.0",
-  "description": "Simple player plugin for Scorejs",
+  "description": "Score player plugin for Scorejs",
   "main": "index.js",
   "scripts": {
     "test": "vows test/*.js test/plugins/*.js"
